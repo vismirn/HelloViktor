@@ -17,13 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izs-Gp-nCP">
-                                <rect key="frame" x="16" y="20" width="343" height="257"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5n-ZE-2ct">
-                                <rect key="frame" x="16" y="291" width="343" height="257"/>
+                                <rect key="frame" x="16" y="406" width="343" height="257"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izs-Gp-nCP">
+                                <rect key="frame" x="16" y="63" width="343" height="257"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -31,8 +31,8 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h5n-ZE-2ct" secondAttribute="bottom" constant="20" id="MOW-gn-Zzc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Izs-Gp-nCP" secondAttribute="trailing" constant="16" id="WNM-Rv-b1P"/>
-                            <constraint firstItem="Izs-Gp-nCP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YxD-CQ-f2r"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h5n-ZE-2ct" secondAttribute="trailing" constant="16" id="eJ5-4D-ofC"/>
+                            <constraint firstItem="Izs-Gp-nCP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="f93-EN-Bcl"/>
                             <constraint firstItem="Izs-Gp-nCP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kJu-fL-lQW"/>
                             <constraint firstItem="h5n-ZE-2ct" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mEb-tG-b8d"/>
                             <constraint firstItem="h5n-ZE-2ct" firstAttribute="top" secondItem="Izs-Gp-nCP" secondAttribute="bottom" constant="20" id="s7i-gE-f6e"/>
